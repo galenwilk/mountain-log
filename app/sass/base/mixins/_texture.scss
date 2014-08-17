@@ -105,7 +105,7 @@
 }
 
 .texture-normal {
-  @include texture(180deg, lighten(rgba(150,211,210,1), 1), darken(rgba(150,211,210,1), 10), 35, 1); // gradient color 1, gradient color 2, gradient angle, texture-number, 0=inverted or 1=normal  
+  @include texture(180deg, lighten($blue, 1), darken($blue, 10), 35, 1); // gradient color 1, gradient color 2, gradient angle, texture-number, 0=inverted or 1=normal  
 }
 
 .texture-inverted {
